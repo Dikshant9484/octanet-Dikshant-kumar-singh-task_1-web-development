@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+}
+
+.feature-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popular-shows {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.popular-shows h2 {
+    margin-bottom: 30px;
+}
+
+.show-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.show-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.subscribe {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe form {
+    display: inline-block;
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
